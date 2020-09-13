@@ -2,6 +2,7 @@
 'RCET0265
 'Fall 2020
 'Fortune Cookie
+'https://github.com/harmdavi/fortuneCookie.git
 
 'This code made possible by viewers like you... also Lane Coleman.
 
