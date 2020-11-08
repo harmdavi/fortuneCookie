@@ -10,25 +10,21 @@ Option Strict On
 Option Explicit On
 Option Compare Text
 
-
-
-Module fortuneCookie
+Module fortuneCookie ' Pascal Case - TJR
 
     Sub Main()
         Dim randomNumber As Integer
         'This randomizes the seed for Visual Basic so that you dont get the same pattern of randomness 
         'when the program is run multiple times. 
-        Randomize()
+        Randomize() ' this should be in randomize sub - TJR
         Do
 
             Console.WriteLine("Please Press Enter to gain wisdom")
             Console.ReadLine()
 
             randomNumber = GetRandomNumber(1, 2)
-
             If randomNumber = 1 Then
                 Console.WriteLine($"Help I am stuck in a fortune cookie factory. {vbNewLine}")
-
             ElseIf randomNumber = 2 Then
                 Console.WriteLine($"Licking door knobs is illegal on other planets. {vbNewLine}")
             ElseIf randomNumber = 3 Then
@@ -37,11 +33,6 @@ Module fortuneCookie
             Console.ReadLine()
 
         Loop
-
-
-
-
-
 
     End Sub
 
